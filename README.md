@@ -1,8 +1,11 @@
 # 🌟 Yunak Nuker
 
 1 -> cmd open
+
 2 -> npm i
+
 3 -> start.bat
+
 4 -> finish :)
 
 Discord: Yunak#0707
