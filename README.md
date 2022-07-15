@@ -1,6 +1,4 @@
-# Yunak Nuker
-
-🌟 Enjoyed Yunak Nuker? 
+# 🌟 Yunak Nuker
 
 Discord: Yunak#0707
 Server: https://discord.gg/script
