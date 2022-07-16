@@ -17,6 +17,7 @@ console.log(`
 [3] Account Nuker             [4] Token onliner   
 [5] Webhook Spammer           [6] Token voice join  
 [7] Server Nuker              [8] Token dm message
+                [9] Dm cleaner               
 `);
 readline.question("> ", async (reply) => {
 if(reply == 1) {
@@ -51,7 +52,11 @@ require("./tools/server-nuker.js");
 readline.close();
 console.clear();
 require("./tools/tokens-dm-message.js");
-} else {
+} else if(reply == 9) {
+readline.close();
+console.clear();
+require("./tools/dm-cleaner.js");
+}else {
 console.log("[!] Error...");
 process.exit();
 }
